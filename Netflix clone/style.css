@@ -1,0 +1,121 @@
+.bg{
+    background-image: url("bgimg.jpg");
+  background-color: #535353;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width:99%;
+  height:550px;
+
+  border-color: #535353;
+  background-attachment:scroll;
+}
+.bg::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:100%;
+    height:710px;
+    background-color: rgba(0, 0, 0, 0.5);
+  z-index: -1;
+}
+
+main{
+    background-color: transparent;
+    margin-top: 0%;
+   
+   
+}
+.logo{
+    display: flex;
+}
+.options{
+    margin-left: 70%;
+    font-size: 25px;
+    color: aqua;
+    font-family: "Roboto", sans-serif;
+}
+.options select{
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+}
+.logonetflix img{
+    color:red;
+    height: 180px;
+    margin-left: 20px ;
+    margin-top: 0%;
+}
+
+#login{
+    margin-top: 2.5px;
+    height: 27px;
+    width: 90px;
+    background-color: red;
+    color: white;
+    border-radius: 4px 0px 4px 0px;
+    font-size: 18px;
+    margin-left: 4px;
+    padding:3 px;
+    font-family: "Roboto", sans-serif;
+    
+}
+
+.content h1{
+text-align: center;
+font-size:  55px;
+margin-bottom: -20px;
+padding-top: 20px;
+color: white;
+font-family: "Roboto", sans-serif;
+}
+.content h2{
+    text-align: center;
+font-size:  30px;
+margin-bottom: 20px;
+color: white;
+font-family: "Roboto", sans-serif;
+}
+.content p{
+    text-align: center;
+font-size:  30px;
+color: white;
+font-family: "Roboto", sans-serif;
+}
+
+
+.subscribe{
+    text-align: center;
+    margin-bottom: 14.1%;
+}
+.subscribe input{
+    font-size: 18px;
+    height:45px;
+    width:20%;
+    background: transparent;
+    border: 2px solid #535353;
+    font-family: "Roboto", sans-serif;
+
+}
+#submitted{
+    font-size:25px;
+    height:50px;
+    margin-top: 0%;
+    background-color: red;
+    color:white;
+    margin-left: 4px;
+    margin-bottom: 0%;
+    width: 15%;
+    padding:4px 4px 4px 4px;
+    font-family: "Roboto", sans-serif;
+}
+#submitted:hover{
+   background-color:rgba(255, 0, 0, 0.742)
+     
+   
+}
+span{
+    font-size: 25px;
+    margin-bottom:0% ;
+    }
+ 
